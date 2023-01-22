@@ -43,21 +43,21 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num += 1;
-num -= 1;
+num++;
+num--;
 alert(num);
 
 let years = prompt("Сколько вам лет?");
-alert(prompt);
+alert(years);
 
 let user = {
     name:"Gena",
     age: 30, 
-    isAdmin:("0")
+    isAdmin: false
 }
 
 console.log(typeof isAdmin); 
-
+user["city of residence"] = 'Moscow';
 console.log(user["city of residence"])
 user["city of residence"] = true;
 
@@ -69,9 +69,9 @@ delete user["city of residence"];
 
 let info = prompt("Какую информацию хотите узнать о пользователе?");
 
-console.log(info.user);
+console.log(user[info]);
 
-alert(info.user);
+alert(user[info]);
 
 let nameText = prompt('Введите ваше имя');
 
