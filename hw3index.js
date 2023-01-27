@@ -1,7 +1,7 @@
 //1
 let password = "Пароль";
 let input = prompt("Введите пароль");
-if (input === true) {
+if (input === password) {
     alert("Пароль введен верно");
 } else {
     alert("Пароль введен неправильно");
@@ -17,7 +17,7 @@ if (C > 0 && C < 10) {
 }
 
 //3
-let D = 1;
+let D = 10;
 let E = 200;
 if (D || E > 100) {
     console.log("Верно");
@@ -28,48 +28,35 @@ if (D || E > 100) {
 }
 
 //4
-let a = 2;
-let b = 3;
+let a = Number("2");
+let b = Number("3");
 alert(a + b);
 
 //5
 let monthNumber = 12;
 switch (monthNumber) {
+    case "12":
     case "1":
-        console.log("зима")
-        break;
     case "2":
         console.log("зима")
         break;
+
     case "3":
-        console.log("весна")
-        break;
     case 4:
-        console.log("весна")
-        break;
     case 5:
         console.log("весна")
         break;
+
     case 6:
-        console.log("лето")
-        break;
     case 7:
-        console.log("лето")
-        break;
     case 8:
         console.log("лето")
         break;
+
     case 9:
-        console.log("осень")
-        break;
     case 10:
-        console.log("осень")
-        break;
     case 11:
         console.log("осень")
-        break;
-    case 12:
-        console.log("зима")
         break;
 
     default: console.log('нету')
@@ -78,8 +65,7 @@ switch (monthNumber) {
 //7
 let please = prompt("Пожалуйста, введите любое число");
 console.log(isNaN(please));
-let pleaseH = prompt("Пожалуйста, введите любое число");
-if (pleaseH % 2 == 0) {
+if (please % 2 == 0) {
     alert("Число четное");
 } else {
     alert("Число нечетное");
@@ -93,6 +79,8 @@ if (system === "iOS") {
     alert("Установите версию приложения для iOS по ссылке");
 } else if (system === "Android") {
     alert("Установите версию приложения для Android по ссылке");
+} else {
+    alert("не то");
 }
 
 //9
@@ -103,11 +91,11 @@ if (clienTOS === "iOS" && clientDeviceYear > 2014) {
     alert("Установите версию приложения для iOS по ссылке");
 } else if (clienTOS === "Android" && clientDeviceYear > 2014) {
     alert("Установите версию приложения для Android по ссылке");
-}
+} 
 
 if (clienTOS === "iOS" && clientDeviceYear < 2015) {
     alert("Установите облегченную версию приложения для iOS по ссылке");
-} else if (clienTOS === "Android" && clientDeviceYear < 2015){
+} else if (clienTOS === "Android" && clientDeviceYear < 2015) {
     alert("Установите облегченную версию приложения для Android по ссылке");
 }
 
