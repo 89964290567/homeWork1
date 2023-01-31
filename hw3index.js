@@ -18,8 +18,8 @@ if (C > 0 && C < 10) {
 
 //3
 let D = 10;
-let E = 200;
-if (D || E > 100) {
+let E = 20;
+if (D >= 100 || E >= 100) {
     console.log("Верно");
 
 } else {
