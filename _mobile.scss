@@ -1,0 +1,70 @@
+@media (min-width: 375px) and (max-width: 768px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top {
+        height: 735px;
+        background: url(./img/Rectangle\ 1.jpg) no-repeat center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__title {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        width: 343px;
+    }
+
+    .top__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 343px;
+    }
+
+    .top__text_strong {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .top__button_text {
+        text-align: center;
+    }
+
+    .product__box-img {
+        width: 343px;
+    }
+
+    .product {
+        padding-right: 16px;
+    }
+
+    .heading {
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        width: 243px;
+    }
+
+    .subtitle {
+       
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        width: 343px;
+    }
+
+    .aside {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+}
