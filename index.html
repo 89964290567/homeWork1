@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
-    
-    <script src="./hw4index.js"></script>
+    <script src="./hw5index.js"></script>
+    <script src="./hw5gameindex.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class="top ctnter">
-    <div class="top__content center">
-        <h1 class="title">Добро пожаловать  на мой сайт !</h1>
-        <p class="top_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и приступай</p>
-        <button class="button__text">Поехали!</button>
-    </div>
-</div>
-<div class="top__product center">
-    <div class="product__content">
-        <div class="product__content_item1">
-            <a class="product__content_item1_text" href="index.html">Игра 1</a>
-        </div>
-    </div>
-    <div class="product__content">
-        <div class="product__content_item2">
-            <a class="product__content_item2_text" href="index.html">Игра 2</a>
-        </div>
-    </div>
-    <div class="product__content">
-        <div class="product__content_item3">
-            <a class="product__content_item3_text" href="index.html">Игра 3</a>
-        </div>
-    </div>
-
-</div> 
-
+    <section class="top center">
+        <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
+                class="top__text_strong">поехали</span> и <span class="top__text_strong">приступай</span></p>
+        <button class="top__button_text">Поехали!</button>
+    </section>
+    <section class="product center">
+        <article class="product__box">
+            <a class="product__link" href="#"> <img src="./img/игра 1.jpg" alt="" class="product__box-img">
+                <p class="product__text">Игра 1</p>
+            </a>
+        </article>
+        <article class="product__box">
+            <a class="product__link" href="#"> <img src="./img/игра2.jpg" alt="" class="product__box-img">
+                <p class="product__text">Игра 2</p>
+            </a>
+        </article>
+        <article class="product__box">
+            <a class="product__link" href="#"> <img src="./img/игра3.jpg" alt="" class="product__box-img">
+                <p class="product__text">Игра 3</p>
+            </a>
+        </article>
+    </section>
+    <section class="aside center">
+        <article>
+            <h2 class="heading">Времена года!</h2>
+            <p class="subtitle">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени
+                года он относится</p>
+            <button onclick="times(month)" class="top__button_text">Играть!</button>
+        </article>
+        <img class="gameone" src="./img/gameone.svg" alt="">
+    </section>
 </body>
 </html>
