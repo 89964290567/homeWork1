@@ -44,9 +44,9 @@ const b = 5;
 
 function vaiues(A, b) {
     if (!isNaN(A) && !isNaN(b)) {
-        return alert(A * b);
+        return A * b;
     } else {
-        alert('Одно или оба значения не являются числом');
+        return'Одно или оба значения не являются числом';
     }
 }
 vaiues(A, b);
@@ -57,11 +57,11 @@ console.log(typeof (userAny));
 
 function cub() {
     if (!isNaN(userAny)) {
-        return alert(Math.pow(userAny, 3));
+        return `${userAny} в кубе равняется ${Math.pow(userAny, 3)}`
     } else {
-        alert("не число");
+        return "не число";
     }
 }
-cub(userAny);
-
-
+for (let i = 0; i <= 10; i++) {
+    console.log( cub(i) );
+}
