@@ -1,5 +1,6 @@
-const month = 9;
-function times(month) {
+//const month = 9;
+function times() {
+    const month = prompt('Введите номер месяца');
     if (month == 1 || month == 2 || month == 12) {
         return alert("Зима");
     } else if (month == 3 || month == 4 || month == 5) {
@@ -12,4 +13,4 @@ function times(month) {
         return alert("Неверно");
     }
 }
-times(month);
+//times(month);
