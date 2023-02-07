@@ -76,7 +76,7 @@ for (let i = 0, min = 1, max = 11; i < 6; i++) {
     array10[i] = Math.floor(Math.random()*(max-min) +min);
 }
 const average = (array10) => {
-    const cum = array10.reduce((acc, number) => acc  + number,  0);
+    const sum = array10.reduce((acc, number) => acc  + number,  0);
    const length = array10.length;
    return sum  / length;
  };
@@ -86,9 +86,8 @@ const average = (array10) => {
 //11
 
 let array11 = [[1, 2, 3,],[4, 5, 6]];
-console.log(array11.reduce(function(flat,current){
-    return flat.concat(current);
-},[]));
+
+console.log(array11.flat());
 
 //12
 
@@ -96,7 +95,7 @@ console.log(array11.reduce(function(flat,current){
 const array12 =[];
 
 for (let i = 0, min = 1, max = 11; i < 11; i++) {
-    array[i] = Math.floor(Math.random()*(max-min) +min);
+    array12[i] = Math.floor(Math.random()*(max-min) +min);
 }
 for (let i = 0; i < array12.length-1; i++) { 
 	console.log(`сумма ${i}-го и ${i+1}-го элемента равна ${array12[i]+array12[i+1]}`);
