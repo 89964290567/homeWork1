@@ -1,13 +1,13 @@
 //1
-const Numbs = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < Numbs.length; i++) {
-	if (Numbs[i] == 10) break;
-    console.log(Numbs[i]);
+const numbs1 = [1, 5, 4, 10, 0, 3];
+for (let i = 0; i < numbs1.length; i++) {
+    console.log(numbs1[i]);
+	if (numbs1[i] == 10) break;
 }
 
 //2
 let position = [1, 5, 4, 10, 0, 3];
-console.log(position[2]);
+console.log(position.indexOf(4));
 
 //3
 
@@ -30,16 +30,15 @@ console.log(newArray);
 
 //5
 
-let arr = [
-    [1,1,1,],
-    [1,1,1,],
-    [1,1,1,],
-];
-for (let arrin of arr) {
-for (let element of arrin) {
-    console.log(element);
-}    
+let arr = []
+for (let i = 0; i < 3; i++) {
+	arr[i] = []; 
+	
+	for (let j = 0; j < 3; j++) {
+		arr[i].push(1); 
+	}
 }
+console.log(arr);
 
 //6
 
@@ -57,9 +56,9 @@ console.log(excess);
 
 //8
 
-const Array8 = [9, 8, 7, 6, 5];
+const array8 = [9, 8, 7, 6, 5];
 let userAnswer8 = +prompt("Введите число от 1 до 10");
-let Answer = Array8.includes(userAnswer8);
+let Answer = array8.includes(userAnswer8);
 console.log(Answer);
 
 
