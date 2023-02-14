@@ -52,6 +52,29 @@
     line-height: 39px;
     text-align: center;
   }
+
+  .holder {
+    padding-top: 51px;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+  }
+
+  .undraw_gaming {
+    width: 344px;
+    height: 231px;
+  }
+
+
+
+  .ingredient {
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
 }
 
 * {
@@ -192,6 +215,50 @@ body {
   cursor: url(img/Vector.svg), pointer;
 }
 
+.holder {
+  background: #000915;
+  padding-top: 239px;
+  padding-bottom: 239px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+
+  max-width: 396px;
+}
+
+.ingredient {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 588px;
+  padding-top: 32px;
+  padding-bottom: 45px;
+}
+
+.button {
+  background: #9C0332;
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+  border: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  cursor: url(img/Vector.svg), pointer;
+}
+
+
 @media (min-width: 375px) and (max-width: 768px) {
   .center {
     padding-left: 16px;
@@ -248,7 +315,6 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    width: 243px;
     padding-top: 51px;
     padding-left: 66px;
   }
@@ -269,6 +335,46 @@ body {
 
   }
 
+  .holder {
+    padding-top: 51px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+
+  }
+
+  .undraw_gaming {
+    width: 344px;
+    height: 231px;
+    padding-bottom: 90px;
+
+  }
+
+  .header {
+   
+    font-size: 32px;
+    line-height: 39px;
+   
+  }
+
+  .ingredient {
+    
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 343px;
+  }
+
+  .button {
+
+    align-items: center;
+    width: 234px;
+    margin-bottom: 77px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

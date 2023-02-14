@@ -140,3 +140,45 @@ body {
     cursor: url(img/Vector.svg), pointer;
 }
 
+.holder {
+    background: #000915;
+    padding-top: 239px;
+    padding-bottom: 239px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFFFFF;
+    
+    max-width: 396px;
+  }
+  
+  .ingredient {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 588px;
+    padding-top: 32px;
+    padding-bottom: 45px;
+  }
+  
+  .button {
+    background: #9C0332;
+    border-radius: 30px;
+    width: 234px;
+    height: 48px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .button:hover {
+    cursor: url(img/Vector.svg), pointer;
+  }
+  
